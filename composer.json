@@ -1,0 +1,31 @@
+{
+  "name": "liagkos/laravel-grvatid-validator",
+  "description": "Validator for Laravel in order to check if a number is POTENTIALLY valid in Greek VAT ID Registry",
+  "version": "v1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Athanasios (Nasos) Liagkos",
+      "email": "me@nasos.work"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Liagkos\\Grvatval\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.3",
+    "illuminate/support": "~5.5"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Liagkos\\Grvatval\\ServiceProvider"
+      ]
+    }
+  }
+}
