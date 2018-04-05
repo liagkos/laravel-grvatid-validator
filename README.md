@@ -9,7 +9,7 @@ Validator does NOT check if VAT ID does actually belong to a person or a company
 2. Calculate sum of 0*2^8+9*2^7+0*2^6+0*2^5+0*2^4+0*2^3+0*2^2+4*2^1 = 1160
 3. Calculate mod11 = 1160 % 11 = 5
 4. Calculate mod10 = 5 % 10 = 5
-5. mod10 (5) is not equal to 5 (last digit), so VAT ID is VALID
+5. mod10 (5) is equal to 5 (last digit), so VAT ID is VALID
 ```
 
 ```
